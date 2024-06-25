@@ -370,14 +370,14 @@ static void trailing_pad(int padlen, PrintfTarget *target);
  */
 #ifndef HAVE_STRCHRNUL
 
-static inline const char *
+/*static inline const char *
 strchrnul(const char *s, int c)
 {
 	while (*s != '\0' && *s != c)
 		s++;
 	return s;
 }
-
+*/
 #else
 
 /*
